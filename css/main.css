@@ -1,4 +1,11 @@
-
+:root {
+    --maincolor: #75AFD6;
+    --maintextcolor: #002F39;
+    --mainbgcolor: #FFF1D4;
+    --headercolor: #0077C5;
+    --buttoncolor: #A5DAE0;
+    --detailcolor: #F9A802;
+}
 
 /* below is H1 font info */
 /* font-family: 'Shrikhand', cursive;
