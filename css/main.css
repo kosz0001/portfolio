@@ -7,6 +7,10 @@
     --detailcolor: #F9A802;
 }
 
+nav {
+    background-color: var(--maincolor);
+}
+
 /* below is H1 font info */
 /* font-family: 'Shrikhand', cursive;
  */
