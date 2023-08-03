@@ -11,9 +11,60 @@ nav {
     background-color: var(--maincolor);
 }
 
-/* below is H1 font info */
-/* font-family: 'Shrikhand', cursive;
- */
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+}
+
+p {
+    font-family: "brevia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--maintextcolor);
+}
+
+aside {
+    background-color: var(--mainbgcolor);
+}
+
+section {
+    background-color: var(--mainbgcolor);
+}
+
+form {
+    font-family: "brevia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--headercolor);
+}
+
+input {
+    border: #F9A802 solid 2px;
+    width: 100%;
+}
+
+.btn {
+    background-color: var(--buttoncolor);
+    color: var(--mainbgcolor);
+}
+
+footer {
+    background-color: var(--maincolor);
+}
+
+.fa-brands {
+    background-color: pink;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    /* must customize social icons further */
+}
+
+
 
  /* below is h2, h3 and p info */
  /* font-family: "brevia", sans-serif;
