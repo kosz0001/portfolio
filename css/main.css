@@ -7,6 +7,10 @@
     --detailcolor: #F9A802;
 }
 
+.navbar {
+    color: #0077C5;
+}
+
 nav {
     background-color: var(--maincolor);
 }
