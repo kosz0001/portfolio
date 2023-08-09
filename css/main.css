@@ -40,6 +40,10 @@ h4 {
     color: #002F39;
 }
 
+.about-portrait {
+    max-width: 300px;
+}
+
 p {
     font-family: "brevia", sans-serif;
     font-weight: 400;
