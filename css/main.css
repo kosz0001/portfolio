@@ -66,6 +66,11 @@ footer {
     background-color: var(--maincolor);
 }
 
+.footerp {
+    font-weight: bold;
+    color: white;
+}
+
 .fa-brands {
     background-color: pink;
     color: white;
