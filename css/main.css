@@ -78,7 +78,8 @@ input {
 
 .btn {
     background-color: var(--buttoncolor);
-    color: var(--mainbgcolor);
+    color: white;
+    font-weight: bold;
 }
 
 footer {
