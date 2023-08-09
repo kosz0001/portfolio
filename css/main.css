@@ -77,6 +77,16 @@ footer {
     color: white;
 }
 
+.footeremail {
+    font-weight: bold;
+    color: #FFF1D4;
+}
+
+.footerwebsite {
+    font-weight: bold;
+    color: #FFF1D4;
+}
+
 .fa-brands {
     background-color: pink;
     color: white;
