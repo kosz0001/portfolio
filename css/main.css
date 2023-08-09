@@ -18,6 +18,11 @@ h1 {
 
 .heroheading {
     color: #75AFD6;
+    font-size: 3rem;
+}
+
+.card-text {
+    color: white;
 }
 
 h2 {
