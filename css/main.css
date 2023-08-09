@@ -11,6 +11,10 @@ nav {
     background-color: var(--maincolor);
 }
 
+.heroheading {
+    color: #75AFD6;
+}
+
 h1 {
     font-family: 'Shrikhand', cursive;
 }
