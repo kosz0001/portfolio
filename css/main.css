@@ -46,6 +46,11 @@ input {
     width: 100%;
 }
 
+.carousel-inner {
+    width: 40%;
+    margin-left: 25%;
+}
+
 .btn {
     background-color: var(--buttoncolor);
     color: var(--mainbgcolor);
