@@ -25,6 +25,12 @@ h2 {
     color: #0077C5;
 }
 
+h4 {
+    font-family: "brevia", sans-serif;
+    font-weight: bold;
+    color: #002F39;
+}
+
 p {
     font-family: "brevia", sans-serif;
     font-weight: 400;
