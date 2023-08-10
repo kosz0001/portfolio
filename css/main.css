@@ -5,6 +5,7 @@
     --headercolor: #0077C5;
     --buttoncolor: #A5DAE0;
     --detailcolor: #F9A802;
+    --accentcolor: white;
 }
 
 nav {
@@ -19,27 +20,27 @@ nav {
 
 h1 {
     font-family: 'Shrikhand', cursive;
-    color: #0077C5;
+    color: var(--headercolor);
 }
 
 .heroheading {
-    color: #75AFD6;
+    color: var(--maincolor);
     font-size: 3rem;
 }
 
 .card-text {
-    color: white;
+    color: var(--accentcolor);
 }
 
 h2 {
     font-family: 'Shrikhand', cursive;
-    color: #0077C5;
+    color: var(--headercolor);
 }
 
 h4 {
     font-family: "brevia", sans-serif;
     font-weight: bold;
-    color: #002F39;
+    color: var(--maintextcolor);
 }
 
 .about-portrait {
@@ -77,7 +78,7 @@ form {
 }
 
 input {
-    border: #A5DAE0 solid 2px;
+    border: var(--buttoncolor) solid 2px;
     width: 100%;
 }
 
@@ -88,7 +89,7 @@ input {
 
 .btn {
     background-color: var(--buttoncolor);
-    color: white;
+    color: var(--accentcolor);
     font-weight: bold;
 }
 
@@ -102,23 +103,23 @@ footer {
 
 .footerp {
     font-weight: bold;
-    color: white;
+    color: var(--accentcolor);
     padding-left: 0.8rem;
 }
 
 .footeremail {
     font-weight: bold;
-    color: #FFF1D4;
+    color: var(--mainbgcolor);
 }
 
 .footerwebsite {
     font-weight: bold;
-    color: #FFF1D4;
+    color: var(--mainbgcolor);
 }
 
 .fa-brands {
-    background-color: pink;
-    color: white;
+    background-color: var(--detailcolor);
+    color: var(--accentcolor);
     font-size: 1rem;
     border-radius: 50%;
     padding: 0.5rem;
