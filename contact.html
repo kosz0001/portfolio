@@ -54,86 +54,88 @@
       </div>
     </div>
   </nav>
-    <!-- insert background moon -->
-    <section>
-      <picture class="mt-5">
-        <source srcset="images/contact-img-200_x_369.png" type="image">
-        <source srcset="images/contact-img-250_x_460.png" type="image">
-        <source srcset="images/contact-img-300_x_553.png" type="image">
-        <img src="images/contact-img.jpg" class="contact-image img-fluid rounded-4 mx-auto d-block" alt="decorative image of osaka castle">
-      </picture>
-        <h1 class="text-center" role="heading">Contact Form</h1>
-        <form action="contact.html" method="get" id="maincontent" class="container text-center" role="form">
-            <div class="row">
-                <div class="col-6">
-                    <label for="fname">First Name</label>
-                    <br>
-                    <input id="fname" name="firstname" class="rounded-4 ps-2 mb-4" type="text" placeholder="First Name">
-                </div>
-                <div class="col-6">
-                    <label for="lname">Last Name</label>
-                    <br>
-                    <input id="lname" name="lastname" class="rounded-4 ps-2 mb-4" type="text" placeholder="Last Name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label for="email">Email</label>
-                    <br>
-                    <input id="email" name="email" class="rounded-4 ps-2 mb-4" type="email" placeholder="Email@email.com">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label for="text">Subject</label>
-                    <br>
-                    <input id="text" name="subject" class="rounded-4 ps-2 mb-4" type="text" placeholder="Subject">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label for="message">Message</label>
-                    <br>
-                    <input id="message" name="message" class="rounded-4 ps-2 pb-5 mb-4" type="text" placeholder="Type your message here...">
-                </div>
-            </div>
-            <button type="submit" class="btn rounded-5 mt-4 mb-5 ">Submit</button>
-        </form>
-    </section>
-    <footer role="contentinfo">
-        <!-- inserts text logo for footer -->
-        <p class="footerp ps-sm-3 ps-md-4 ps-lg-10">Make your imagination into reality.</p>
-        <div class="container text-left">
-            <div class="row">
+  <!-- insert background moon -->
+  <a class="visually-hidden-focusable" href="#maincontent" aria-label="Skip down page to form">Skip to main content &darr;</a>
+  <section id="backtotop">
+    <picture class="mt-5">
+      <source srcset="images/contact-img-200_x_369.png" type="image">
+      <source srcset="images/contact-img-250_x_460.png" type="image">
+      <source srcset="images/contact-img-300_x_553.png" type="image">
+      <img src="images/contact-img.jpg" class="contact-image img-fluid rounded-4 mx-auto d-block" alt="decorative image of osaka castle">
+    </picture>
+      <h1 class="text-center" role="heading" id="maincontent">Contact Form</h1>
+      <form action="contact.html" method="get" id="maincontent" class="container text-center" role="form">
+          <div class="row">
               <div class="col-6">
-                <h4>CONTACT</h4>
+                  <label for="fname">First Name</label>
+                  <br>
+                  <input id="fname" name="firstname" class="rounded-4 ps-2 mb-4" type="text" placeholder="First Name">
               </div>
               <div class="col-6">
-                <h4>SOCIALS</h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <p class="footeremail">koszaryc@ualberta.ca</p>
-              </div>
-              <div class="col-1">
-                <a href="https://twitter.com/Bratz" aria-label="Go to Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-              </div>
-              <div class="col-1">
-                <a href="https://www.instagram.com/bratz/?hl=en" aria-label="Go to Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              </div>
-              <div class="col-1">
-                <a href="https://vm.tiktok.com/ZM2cjDUCh/" aria-label="Go to TikTok" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                  <p class="footerwebsite">mooncreatives.org</p>
-                </div>
+                  <label for="lname">Last Name</label>
+                  <br>
+                  <input id="lname" name="lastname" class="rounded-4 ps-2 mb-4" type="text" placeholder="Last Name">
               </div>
           </div>
-    </footer>
+          <div class="row">
+              <div class="col">
+                  <label for="email">Email</label>
+                  <br>
+                  <input id="email" name="email" class="rounded-4 ps-2 mb-4" type="email" placeholder="Email@email.com">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <label for="text">Subject</label>
+                  <br>
+                  <input id="text" name="subject" class="rounded-4 ps-2 mb-4" type="text" placeholder="Subject">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <label for="message">Message</label>
+                  <br>
+                  <input id="message" name="message" class="rounded-4 ps-2 pb-5 mb-4" type="text" placeholder="Type your message here...">
+              </div>
+          </div>
+          <button type="submit" class="btn rounded-5 mt-4 mb-5 ">Submit</button>
+      </form>
+  </section>
+  <a href="#backtotop" class="visually-hidden-focusable" aria-label="Go back to the top of the page">Back To Top &uarr;</a>
+  <footer role="contentinfo">
+      <!-- inserts text logo for footer -->
+      <p class="footerp ps-sm-3 ps-md-4 ps-lg-10">Make your imagination into reality.</p>
+      <div class="container text-left">
+          <div class="row">
+            <div class="col-6">
+              <h4>CONTACT</h4>
+            </div>
+            <div class="col-6">
+              <h4>SOCIALS</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <p class="footeremail">koszaryc@ualberta.ca</p>
+            </div>
+            <div class="col-1">
+              <a href="https://twitter.com/Bratz" aria-label="Go to Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://www.instagram.com/bratz/?hl=en" aria-label="Go to Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="col-1">
+              <a href="https://vm.tiktok.com/ZM2cjDUCh/" aria-label="Go to TikTok" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-6">
+                <p class="footerwebsite">mooncreatives.org</p>
+              </div>
+            </div>
+        </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
