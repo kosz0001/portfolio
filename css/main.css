@@ -13,6 +13,10 @@ nav {
     color: var(--mainbgcolor);
 }
 
+.navbar ul {
+    color: var(--mainbgcolor) !important;
+}
+
 h1 {
     font-family: 'Shrikhand', cursive;
     color: #0077C5;
