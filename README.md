@@ -13,7 +13,7 @@ Frameworks
 Bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css
 
 Libraries
-
+Animate.CSS: https://animate.style/
 
 Fonts
 Shrinkhand: https://fonts.googleapis.com/css2?family=Shrikhand&display=swap
