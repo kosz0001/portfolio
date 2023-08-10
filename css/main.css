@@ -92,9 +92,14 @@ footer {
     background-color: var(--maincolor);
 }
 
+.footer-wordmark {
+    padding-left: 0.8rem;
+}
+
 .footerp {
     font-weight: bold;
     color: white;
+    padding-left: 0.8rem;
 }
 
 .footeremail {
