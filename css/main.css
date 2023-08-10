@@ -53,6 +53,10 @@ p {
     color: var(--maintextcolor);
 }
 
+.p-aboutlast {
+    margin-bottom: 0;
+}
+
 aside {
     background-color: var(--mainbgcolor);
 }
